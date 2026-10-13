@@ -81,7 +81,7 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Regular" "FontForge 2.0 : heterodox_chess : 13-10-2026" "" "Version 001.000" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org" "https://openfontlicense.org"
 GaspTable: 1 65535 2 0
-Encoding: UnicodeBmp
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
@@ -178,7 +178,7 @@ LayerCount: 2
 EndChar
 
 StartChar: king_w
-Encoding: 57344 57344 3
+Encoding: 57344 59648 3
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -493,7 +493,7 @@ EndSplineSet
 EndChar
 
 StartChar: king_b
-Encoding: 57345 57345 4
+Encoding: 57345 59649 4
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -1264,7 +1264,7 @@ EndSplineSet
 EndChar
 
 StartChar: king_rw
-Encoding: 57346 57346 5
+Encoding: 57346 59650 5
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -1576,7 +1576,7 @@ EndSplineSet
 EndChar
 
 StartChar: king_rb
-Encoding: 57347 57347 6
+Encoding: 57347 59651 6
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -2349,7 +2349,7 @@ EndSplineSet
 EndChar
 
 StartChar: queen_w
-Encoding: 57348 57348 7
+Encoding: 57348 59652 7
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -2616,7 +2616,7 @@ EndSplineSet
 EndChar
 
 StartChar: queen_b
-Encoding: 57349 57349 8
+Encoding: 57349 59653 8
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -3244,7 +3244,7 @@ EndSplineSet
 EndChar
 
 StartChar: queen_rw
-Encoding: 57350 57350 9
+Encoding: 57350 59654 9
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -3511,7 +3511,7 @@ EndSplineSet
 EndChar
 
 StartChar: queen_rb
-Encoding: 57351 57351 10
+Encoding: 57351 59655 10
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -4130,7 +4130,7 @@ EndSplineSet
 EndChar
 
 StartChar: rook_w
-Encoding: 57352 57352 11
+Encoding: 57352 59656 11
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -4331,7 +4331,7 @@ EndSplineSet
 EndChar
 
 StartChar: rook_b
-Encoding: 57353 57353 12
+Encoding: 57353 59657 12
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -4665,7 +4665,7 @@ EndSplineSet
 EndChar
 
 StartChar: rook_rw
-Encoding: 57354 57354 13
+Encoding: 57354 59658 13
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -4866,7 +4866,7 @@ EndSplineSet
 EndChar
 
 StartChar: rook_rb
-Encoding: 57355 57355 14
+Encoding: 57355 59659 14
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -5207,7 +5207,7 @@ EndSplineSet
 EndChar
 
 StartChar: bishop_w
-Encoding: 57356 57356 15
+Encoding: 57356 59660 15
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -5468,7 +5468,7 @@ EndSplineSet
 EndChar
 
 StartChar: bishop_b
-Encoding: 57357 57357 16
+Encoding: 57357 59661 16
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -6012,7 +6012,7 @@ EndSplineSet
 EndChar
 
 StartChar: bishop_rw
-Encoding: 57358 57358 17
+Encoding: 57358 59662 17
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -6275,7 +6275,7 @@ EndSplineSet
 EndChar
 
 StartChar: bishop_rb
-Encoding: 57359 57359 18
+Encoding: 57359 59663 18
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -6824,7 +6824,7 @@ EndSplineSet
 EndChar
 
 StartChar: knight_w
-Encoding: 57360 57360 19
+Encoding: 57360 59664 19
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -7001,7 +7001,7 @@ EndSplineSet
 EndChar
 
 StartChar: knight_b
-Encoding: 57361 57361 20
+Encoding: 57361 59665 20
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -7390,7 +7390,7 @@ EndSplineSet
 EndChar
 
 StartChar: knight_rw
-Encoding: 57362 57362 21
+Encoding: 57362 59666 21
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -7569,7 +7569,7 @@ EndSplineSet
 EndChar
 
 StartChar: knight_rb
-Encoding: 57363 57363 22
+Encoding: 57363 59667 22
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -7958,7 +7958,7 @@ EndSplineSet
 EndChar
 
 StartChar: pawn_w
-Encoding: 57364 57364 23
+Encoding: 57364 59668 23
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -8080,7 +8080,7 @@ EndSplineSet
 EndChar
 
 StartChar: pawn_b
-Encoding: 57365 57365 24
+Encoding: 57365 59669 24
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -8311,7 +8311,7 @@ EndSplineSet
 EndChar
 
 StartChar: pawn_rw
-Encoding: 57366 57366 25
+Encoding: 57366 59670 25
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -8433,7 +8433,7 @@ EndSplineSet
 EndChar
 
 StartChar: pawn_rb
-Encoding: 57367 57367 26
+Encoding: 57367 59671 26
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -8664,7 +8664,7 @@ EndSplineSet
 EndChar
 
 StartChar: nightrider_w
-Encoding: 57368 57368 27
+Encoding: 57368 59672 27
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -8865,7 +8865,7 @@ EndSplineSet
 EndChar
 
 StartChar: nightrider_b
-Encoding: 57369 57369 28
+Encoding: 57369 59673 28
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -9519,7 +9519,7 @@ EndSplineSet
 EndChar
 
 StartChar: nightrider_rw
-Encoding: 57370 57370 29
+Encoding: 57370 59674 29
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -9723,7 +9723,7 @@ EndSplineSet
 EndChar
 
 StartChar: nightrider_rb
-Encoding: 57371 57371 30
+Encoding: 57371 59675 30
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -10380,7 +10380,7 @@ EndSplineSet
 EndChar
 
 StartChar: madman_w
-Encoding: 57372 57372 31
+Encoding: 57372 59676 31
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -10537,7 +10537,7 @@ EndSplineSet
 EndChar
 
 StartChar: madman_b
-Encoding: 57373 57373 32
+Encoding: 57373 59677 32
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -10848,7 +10848,7 @@ EndSplineSet
 EndChar
 
 StartChar: madman_rw
-Encoding: 57374 57374 33
+Encoding: 57374 59678 33
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -11004,7 +11004,7 @@ EndSplineSet
 EndChar
 
 StartChar: madman_rb
-Encoding: 57375 57375 34
+Encoding: 57375 59679 34
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -11312,7 +11312,7 @@ EndSplineSet
 EndChar
 
 StartChar: peasant_w
-Encoding: 57376 57376 35
+Encoding: 57376 59680 35
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -11448,7 +11448,7 @@ EndSplineSet
 EndChar
 
 StartChar: peasant_b
-Encoding: 57377 57377 36
+Encoding: 57377 59681 36
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -11725,7 +11725,7 @@ EndSplineSet
 EndChar
 
 StartChar: peasant_rw
-Encoding: 57378 57378 37
+Encoding: 57378 59682 37
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -11861,7 +11861,7 @@ EndSplineSet
 EndChar
 
 StartChar: peasant_rb
-Encoding: 57379 57379 38
+Encoding: 57379 59683 38
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -12141,7 +12141,7 @@ EndSplineSet
 EndChar
 
 StartChar: guard_w
-Encoding: 57380 57380 39
+Encoding: 57380 59684 39
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -12257,7 +12257,7 @@ EndSplineSet
 EndChar
 
 StartChar: guard_b
-Encoding: 57381 57381 40
+Encoding: 57381 59685 40
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -12490,7 +12490,7 @@ EndSplineSet
 EndChar
 
 StartChar: guard_rw
-Encoding: 57382 57382 41
+Encoding: 57382 59686 41
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -12602,7 +12602,7 @@ EndSplineSet
 EndChar
 
 StartChar: guard_rb
-Encoding: 57383 57383 42
+Encoding: 57383 59687 42
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -12832,7 +12832,7 @@ EndSplineSet
 EndChar
 
 StartChar: researcher_w
-Encoding: 57384 57384 43
+Encoding: 57384 59688 43
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -12999,7 +12999,7 @@ EndSplineSet
 EndChar
 
 StartChar: researcher_b
-Encoding: 57385 57385 44
+Encoding: 57385 59689 44
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -13367,7 +13367,7 @@ EndSplineSet
 EndChar
 
 StartChar: researcher_rw
-Encoding: 57386 57386 45
+Encoding: 57386 59690 45
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -13534,7 +13534,7 @@ EndSplineSet
 EndChar
 
 StartChar: researcher_rb
-Encoding: 57387 57387 46
+Encoding: 57387 59691 46
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -13902,7 +13902,7 @@ EndSplineSet
 EndChar
 
 StartChar: standard_w
-Encoding: 57388 57388 47
+Encoding: 57388 59692 47
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -14054,7 +14054,7 @@ EndSplineSet
 EndChar
 
 StartChar: standard_b
-Encoding: 57389 57389 48
+Encoding: 57389 59693 48
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -14460,7 +14460,7 @@ EndSplineSet
 EndChar
 
 StartChar: standard_rw
-Encoding: 57390 57390 49
+Encoding: 57390 59694 49
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -14612,7 +14612,7 @@ EndSplineSet
 EndChar
 
 StartChar: standard_rb
-Encoding: 57391 57391 50
+Encoding: 57391 59695 50
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -15023,7 +15023,7 @@ EndSplineSet
 EndChar
 
 StartChar: scout_w
-Encoding: 57392 57392 51
+Encoding: 57392 59696 51
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -15149,7 +15149,7 @@ EndSplineSet
 EndChar
 
 StartChar: scout_b
-Encoding: 57393 57393 52
+Encoding: 57393 59697 52
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -15390,7 +15390,7 @@ EndSplineSet
 EndChar
 
 StartChar: scout_rw
-Encoding: 57394 57394 53
+Encoding: 57394 59698 53
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -15514,7 +15514,7 @@ EndSplineSet
 EndChar
 
 StartChar: scout_rb
-Encoding: 57395 57395 54
+Encoding: 57395 59699 54
 Width: 1024
 Flags: W
 LayerCount: 2
