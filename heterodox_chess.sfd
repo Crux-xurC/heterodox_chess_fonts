@@ -177,7 +177,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE000
+StartChar: king_w
 Encoding: 57344 57344 3
 Width: 1024
 Flags: W
@@ -492,7 +492,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE001
+StartChar: king_b
 Encoding: 57345 57345 4
 Width: 1024
 Flags: W
@@ -1263,7 +1263,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE002
+StartChar: king_rw
 Encoding: 57346 57346 5
 Width: 1024
 Flags: W
@@ -1575,7 +1575,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE003
+StartChar: king_rb
 Encoding: 57347 57347 6
 Width: 1024
 Flags: W
@@ -2348,7 +2348,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE004
+StartChar: queen_w
 Encoding: 57348 57348 7
 Width: 1024
 Flags: W
@@ -2615,7 +2615,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE005
+StartChar: queen_b
 Encoding: 57349 57349 8
 Width: 1024
 Flags: W
@@ -3243,7 +3243,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE006
+StartChar: queen_rw
 Encoding: 57350 57350 9
 Width: 1024
 Flags: W
@@ -3510,7 +3510,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE007
+StartChar: queen_rb
 Encoding: 57351 57351 10
 Width: 1024
 Flags: W
@@ -4129,7 +4129,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE008
+StartChar: rook_w
 Encoding: 57352 57352 11
 Width: 1024
 Flags: W
@@ -4330,7 +4330,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE009
+StartChar: rook_b
 Encoding: 57353 57353 12
 Width: 1024
 Flags: W
@@ -4664,7 +4664,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE00A
+StartChar: rook_rw
 Encoding: 57354 57354 13
 Width: 1024
 Flags: W
@@ -4865,7 +4865,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE00B
+StartChar: rook_rb
 Encoding: 57355 57355 14
 Width: 1024
 Flags: W
@@ -5206,7 +5206,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE00C
+StartChar: bishop_w
 Encoding: 57356 57356 15
 Width: 1024
 Flags: W
@@ -5467,7 +5467,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE00D
+StartChar: bishop_b
 Encoding: 57357 57357 16
 Width: 1024
 Flags: W
@@ -6011,7 +6011,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE00E
+StartChar: bishop_rw
 Encoding: 57358 57358 17
 Width: 1024
 Flags: W
@@ -6274,7 +6274,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE00F
+StartChar: bishop_rb
 Encoding: 57359 57359 18
 Width: 1024
 Flags: W
@@ -6823,7 +6823,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE010
+StartChar: knight_w
 Encoding: 57360 57360 19
 Width: 1024
 Flags: W
@@ -7000,7 +7000,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE011
+StartChar: knight_b
 Encoding: 57361 57361 20
 Width: 1024
 Flags: W
@@ -7389,7 +7389,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE012
+StartChar: knight_rw
 Encoding: 57362 57362 21
 Width: 1024
 Flags: W
@@ -7568,7 +7568,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE013
+StartChar: knight_rb
 Encoding: 57363 57363 22
 Width: 1024
 Flags: W
@@ -7957,7 +7957,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE014
+StartChar: pawn_w
 Encoding: 57364 57364 23
 Width: 1024
 Flags: W
@@ -8079,7 +8079,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE015
+StartChar: pawn_b
 Encoding: 57365 57365 24
 Width: 1024
 Flags: W
@@ -8310,7 +8310,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE016
+StartChar: pawn_rw
 Encoding: 57366 57366 25
 Width: 1024
 Flags: W
@@ -8432,7 +8432,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE017
+StartChar: pawn_rb
 Encoding: 57367 57367 26
 Width: 1024
 Flags: W
@@ -8663,7 +8663,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE018
+StartChar: nightrider_w
 Encoding: 57368 57368 27
 Width: 1024
 Flags: W
@@ -8864,7 +8864,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE019
+StartChar: nightrider_b
 Encoding: 57369 57369 28
 Width: 1024
 Flags: W
@@ -9518,7 +9518,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE01A
+StartChar: nightrider_rw
 Encoding: 57370 57370 29
 Width: 1024
 Flags: W
@@ -9722,7 +9722,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE01B
+StartChar: nightrider_rb
 Encoding: 57371 57371 30
 Width: 1024
 Flags: W
@@ -10379,7 +10379,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE01C
+StartChar: madman_w
 Encoding: 57372 57372 31
 Width: 1024
 Flags: W
@@ -10536,7 +10536,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE01D
+StartChar: madman_b
 Encoding: 57373 57373 32
 Width: 1024
 Flags: W
@@ -10847,7 +10847,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE01E
+StartChar: madman_rw
 Encoding: 57374 57374 33
 Width: 1024
 Flags: W
@@ -11003,7 +11003,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE01F
+StartChar: madman_rb
 Encoding: 57375 57375 34
 Width: 1024
 Flags: W
@@ -11311,7 +11311,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE020
+StartChar: peasant_w
 Encoding: 57376 57376 35
 Width: 1024
 Flags: W
@@ -11447,7 +11447,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE021
+StartChar: peasant_b
 Encoding: 57377 57377 36
 Width: 1024
 Flags: W
@@ -11724,7 +11724,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE022
+StartChar: peasant_rw
 Encoding: 57378 57378 37
 Width: 1024
 Flags: W
@@ -11860,7 +11860,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE023
+StartChar: peasant_rb
 Encoding: 57379 57379 38
 Width: 1024
 Flags: W
@@ -12140,7 +12140,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE024
+StartChar: guard_w
 Encoding: 57380 57380 39
 Width: 1024
 Flags: W
@@ -12256,7 +12256,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE025
+StartChar: guard_b
 Encoding: 57381 57381 40
 Width: 1024
 Flags: W
@@ -12489,7 +12489,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE026
+StartChar: guard_rw
 Encoding: 57382 57382 41
 Width: 1024
 Flags: W
@@ -12601,7 +12601,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE027
+StartChar: guard_rb
 Encoding: 57383 57383 42
 Width: 1024
 Flags: W
@@ -12831,7 +12831,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE028
+StartChar: researcher_w
 Encoding: 57384 57384 43
 Width: 1024
 Flags: W
@@ -12998,7 +12998,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE029
+StartChar: researcher_b
 Encoding: 57385 57385 44
 Width: 1024
 Flags: W
@@ -13366,7 +13366,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE02A
+StartChar: researcher_rw
 Encoding: 57386 57386 45
 Width: 1024
 Flags: W
@@ -13533,7 +13533,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE02B
+StartChar: researcher_rb
 Encoding: 57387 57387 46
 Width: 1024
 Flags: W
@@ -13901,7 +13901,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE02C
+StartChar: standard_w
 Encoding: 57388 57388 47
 Width: 1024
 Flags: W
@@ -14053,7 +14053,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE02D
+StartChar: standard_b
 Encoding: 57389 57389 48
 Width: 1024
 Flags: W
@@ -14459,7 +14459,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE02E
+StartChar: standard_rw
 Encoding: 57390 57390 49
 Width: 1024
 Flags: W
@@ -14611,7 +14611,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE02F
+StartChar: standard_rb
 Encoding: 57391 57391 50
 Width: 1024
 Flags: W
@@ -15022,7 +15022,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE030
+StartChar: scout_w
 Encoding: 57392 57392 51
 Width: 1024
 Flags: W
@@ -15148,7 +15148,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE031
+StartChar: scout_b
 Encoding: 57393 57393 52
 Width: 1024
 Flags: W
@@ -15389,7 +15389,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE032
+StartChar: scout_rw
 Encoding: 57394 57394 53
 Width: 1024
 Flags: W
@@ -15513,7 +15513,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE033
+StartChar: scout_rb
 Encoding: 57395 57395 54
 Width: 1024
 Flags: W
