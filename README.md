@@ -13,7 +13,7 @@
 | `heterodox_chess.ttf` | 使う側が読むフォント |
 | `heterodox_chess.sfd` | FontForge の元データ。直すときはこちらを直して ttf を書き出す |
 | `specimen.png` | 上の一覧 |
-| `LICENSE` | ライセンスの全文（The Unlicense） |
+| `OFL.txt` | ライセンスの全文（SIL Open Font License 1.1） |
 
 ## 文字の割り当て
 
@@ -62,4 +62,7 @@ const glyph = String.fromCharCode(0xE000 + 4 * (piece - 1) + (variant - 1));
 
 ## ライセンス
 
-[The Unlicense](LICENSE)。パブリックドメインに置いている。誰でも、商用も含めて、条件なしで使用・改変・再配布・販売ができる。
+Copyright (c) 2026, Crux-xurC
+
+[SIL Open Font License 1.1](OFL.txt)。誰でも、商用も含めて、使用・改変・再配布・ソフトウェアへの同梱ができる。
+条件は、フォント単体で売らないこと、再配布するときに著作権表示とこのライセンスを付けること、改変版も同じライセンスにすること。

@@ -3,7 +3,7 @@ FontName: heterodox_chess
 FullName: heterodox_chess
 FamilyName: heterodox_chess
 Weight: Book
-Copyright: Released into the public domain by Crux-xurC (The Unlicense). https://github.com/Crux-xurC/heterodox_chess_fonts
+Copyright: Copyright (c) 2026, Crux-xurC (https://github.com/Crux-xurC/heterodox_chess_fonts)
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -102.4
@@ -79,7 +79,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 2.0 : heterodox_chess : 13-10-2026" "" "Version 001.000" "" "" "" "" "" "" "" "This is free and unencumbered software released into the public domain (The Unlicense). See https://unlicense.org" "https://unlicense.org"
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : heterodox_chess : 13-10-2026" "" "Version 001.000" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org" "https://openfontlicense.org"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
