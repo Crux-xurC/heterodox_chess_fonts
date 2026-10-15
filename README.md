@@ -1,40 +1,39 @@
 # heterodox_chess_fonts
 
-フェアリーチェス（変則チェス）の駒のフォント。13駒 × 4種の52グリフを、私用領域 U+E900〜U+E933 に置いている。
+A chess-piece font for fairy-chess variants. It contains 52 glyphs: 13 piece types, each in four variants, assigned to the Private Use Area range U+E900–U+E933.
 
-![駒の一覧](specimen.png)
+![Specimen showing all glyphs](specimen.png)
 
-上の行から 白抜き正立・黒塗り正立・白抜き 180° 回転・黒塗り 180° 回転。
+Rows are, from top to bottom: white outline upright, black filled upright, white outline rotated 180°, and black filled rotated 180°.
 
-## ファイル
+## Files
 
-| ファイル | 中身 |
+| File | Contents |
 |---|---|
-| `heterodox_chess.ttf` | 使う側が読むフォント |
-| `heterodox_chess.sfd` | FontForge の元データ。直すときはこちらを直して ttf を書き出す |
-| `names.json` | 正式名称 → コードポイント（`"king_w": "U+E900"` の形） |
-| `mozc_dictionary.txt` | Mozc のユーザー辞書に取り込むファイル（読みは駒の名前のかな、コメントが正式名称） |
-| `specimen.png` | 上の一覧 |
-| `OFL.txt` | ライセンスの全文（SIL Open Font License 1.1） |
+| `heterodox_chess.ttf` | The font to use in applications |
+| `heterodox_chess.sfd` | FontForge source. Edit this file and export a new TTF when changing the font |
+| `names.json` | Canonical glyph name to code point mapping, such as `"king_w": "U+E900"` |
+| `mozc_dictionary.txt` | User dictionary for Mozc. Readings are Japanese kana piece names; comments are the canonical names |
+| `specimen.png` | Glyph specimen |
+| `OFL.txt` | Full text of the SIL Open Font License 1.1 |
 
-## 文字の割り当てと名前
+## Code point and glyph names
 
 ```
-コードポイント = 0xE900 + 4 × (駒番号 − 1) + (種類 − 1)
+code point = 0xE900 + 4 × (piece number − 1) + (variant number − 1)
 ```
 
-それぞれの字には `<駒の名前>_<種類>` の正式名称がある。フォントの中のグリフ名もこの名前で、
-名前からコードポイントへの対応は `names.json` にある。
+Each glyph has the canonical name `<piece>_<variant>`. The font uses the same glyph names, and `names.json` maps each name to a code point.
 
-| 種類 | 接尾辞 | 意味 |
+| Variant | Suffix | Description |
 |---|---|---|
-| 1 | `w` | 白抜き正立 |
-| 2 | `b` | 黒塗り正立 |
-| 3 | `rw` | 白抜き 180° 回転（rotated white） |
-| 4 | `rb` | 黒塗り 180° 回転（rotated black） |
+| 1 | `w` | White outline, upright |
+| 2 | `b` | Black filled, upright |
+| 3 | `rw` | White outline, rotated 180° |
+| 4 | `rb` | Black filled, rotated 180° |
 
-| 駒番号 | 駒 | w | b | rw | rb |
-|---|---|---|---|---|---|
+| Piece # | Piece | w | b | rw | rb |
+|---:|---|---|---|---|---|
 | 1 | king | `king_w` U+E900 | `king_b` U+E901 | `king_rw` U+E902 | `king_rb` U+E903 |
 | 2 | queen | `queen_w` U+E904 | `queen_b` U+E905 | `queen_rw` U+E906 | `queen_rb` U+E907 |
 | 3 | rook | `rook_w` U+E908 | `rook_b` U+E909 | `rook_rw` U+E90A | `rook_rb` U+E90B |
@@ -49,16 +48,14 @@
 | 12 | standard | `standard_w` U+E92C | `standard_b` U+E92D | `standard_rw` U+E92E | `standard_rb` U+E92F |
 | 13 | scout | `scout_w` U+E930 | `scout_b` U+E931 | `scout_rw` U+E932 | `scout_rb` U+E933 |
 
-U+E900 からにしているのは、ほかのフォントと番号がぶつからないようにするため（U+E000 台は Adwaita Sans や
-MathJax のフォント、Nerd Fonts が使っている）。ぶつからなければ、フォントを指定していない場所でもこのフォントが選ばれる。
-Chromium 系のブラウザは私用領域の字に代替フォントを探さないので、`font-family` での指定が要る。
+The allocation starts at U+E900 to avoid collisions with other fonts using the U+E000 range, including Adwaita Sans, MathJax, and Nerd Fonts. Browsers based on Chromium do not search fallback fonts for Private Use Area characters, so specify this font with `font-family`.
 
-## 寸法
+## Dimensions
 
-- em は 1024。全グリフの送り幅が 1024 で、升目は正方形
-- 回転版は em の中心で 180° 回してあるので、正立と同じ升目に収まる
+- The em square is 1024 units; every glyph has an advance width of 1024, and the cell is square.
+- Rotated variants are rotated 180° around the center of the em square, so they occupy the same cell as their upright variants.
 
-## 使い方（CSS）
+## CSS example
 
 ```css
 @font-face {
@@ -70,17 +67,16 @@ Chromium 系のブラウザは私用領域の字に代替フォントを探さ�
 ```
 
 ```js
-// 駒番号 piece（1〜13）、種類 variant（1〜4）
+// piece number: 1–13; variant number: 1–4
 const glyph = String.fromCharCode(0xE900 + 4 * (piece - 1) + (variant - 1));
 
-// 名前から（names.json を読んで）
+// Look up a glyph by name after loading names.json.
 const ch = (name) => String.fromCodePoint(parseInt(names[name].slice(2), 16));
 ch("king_w");
 ```
 
-## ライセンス
+## License
 
 Copyright (c) 2026, Crux-xurC
 
-[SIL Open Font License 1.1](OFL.txt)。誰でも、商用も含めて、使用・改変・再配布・ソフトウェアへの同梱ができる。
-条件は、フォント単体で売らないこと、再配布するときに著作権表示とこのライセンスを付けること、改変版も同じライセンスにすること。
+Licensed under the [SIL Open Font License 1.1](OFL.txt). You may use, modify, redistribute, and bundle the font with software, including commercial software. Do not sell the font by itself. Include the copyright notice and license when redistributing it; modified versions must remain under the OFL.
